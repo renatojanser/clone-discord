@@ -1,9 +1,9 @@
 version: "3.6"
 services:
-    react_letmeask:
+    react_discord:
         image: renatojanser/node_app
         restart: always
         ports:
             - 3004:3000
         volumes:
-            - ./discord:/home/node/app
+            - ./app:/home/node/app
